@@ -90,3 +90,27 @@ client37.login(process.env.t37);//
 client38.login(process.env.t38);// 
 client39.login(process.env.t39);// 
 client40.login(process.env.t40);// 
+
+client.user.setPresence({
+        status: "online",
+        game: {
+            name: "awd",
+            type: "PLAYING"
+        }
+    });
+	
+client2.user.setPresence({
+        status: "online",
+        game: {
+            name: "awd",
+            type: "PLAYING"
+        }
+    });
+
+client3.user.setPresence({
+        status: "online",
+        game: {
+            name: "awd",
+            type: "PLAYING"
+        }
+    });
